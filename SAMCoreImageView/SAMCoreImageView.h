@@ -6,7 +6,10 @@
 //  Copyright (c) 2014 Sam Soffes. All rights reserved.
 //
 
-@interface SAMCoreImageView : UIView
+@import GLKit;
+@import CoreImage;
+
+@interface SAMCoreImageView : GLKView
 
 @property (nonatomic, strong) CIImage *image;
 
