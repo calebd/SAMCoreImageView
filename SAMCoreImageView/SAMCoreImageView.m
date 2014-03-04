@@ -11,7 +11,7 @@
 @import GLKit;
 @import CoreImage;
 
-@interface SAMCoreImageView ()
+@interface SAMCoreImageView () <GLKViewDelegate>
 
 @property (nonatomic, readonly) GLKView *glView;
 @property (nonatomic, readonly) EAGLContext *glContext;
